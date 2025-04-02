@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+steps:
+- script: echo "Pipeline funcionando!"
+  displayName: 'Testando Pipeline'
